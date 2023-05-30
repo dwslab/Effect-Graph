@@ -1,0 +1,675 @@
+## opt: Fewer Information than default
+## and: Additional information, considered part of default
+## alt: equivalent Information to default / previous (!)
+## alt_and: additional information to alt, necessary for it being equivalent to default
+##
+## (INSTANCE) [effect] (INSTANCE)
+## Instances are always part of the text, while effects can be expressed implicitly
+
+# Mandatory insurance violates right to engage in contracts
+(Mandatory insurance) [-violates] (right to engage in contracts)
+opt (Mandatory insurance) [-violates] (right)
+
+# More troops in Afghanistan perpetuates corrupt Afghan government
+(More troops in Afghanistan) [+perpetuates] (corrupt Afghan government)
+alt (More troops in Afghanistan) [+perpetuates] (Afghan government)
+
+# Advocates of co-ops are really aiming for socialized medicine
+(Advocates of co-ops) [+aiming] (socialized medicine)
+
+# Public insurance inefficiencies can be hidden by taxpayer-funding
+
+# Calorie counts eliminate ability of restaurants to be spontaneous.
+(Calorie counts) [-eliminate] (ability of restaurants to be spontaneous)
+opt (Calorie counts) [-eliminate] (ability of restaurants)
+opt (Calorie counts) [-] (restaurants)
+
+# A manned mission to Mars would unify humankind
+(manned mission to Mars) [+unify] (humankind)
+
+# Moonbase advances knowledge of human viability on alien planets.
+(Moonbase) [+advances] (knowledge of human viability on alien planets)
+opt (Moonbase) [+advances] (knowledge of human viability)
+opt (Moonbase) [+advances] (knowledge)
+
+# Labeling respects opinion of those not wanting to consume GM foods.
+(Labeling) [+respects] (opinion of those not wanting to consume GM foods)
+opt (Labeling) [+respects] (opinion)
+alt (Labeling) [+respects] (those not wanting to consume GM foods)
+
+# Allowing coca undermines successful eradication efforts.
+(Allowing coca) [-undermines] (successful eradication efforts)
+alt (coca) [-undermines] (successful eradication efforts)
+alt (Allowing coca) [-undermines] (eradication efforts)
+alt (coca) [-undermines] (eradication efforts)
+opt (Allowing coca) [-undermines] (efforts)
+opt (coca) [-undermines] (efforts)
+
+# The filibuster helps protect the will of the minority
+(filibuster) [+protect] (will of the minority)
+
+# Holocaust denial opens doors to harmful, non-factual views
+(Holocaust denial) [+] (harmful, non-factual views)
+alt (Holocaust denial) [+] (harmful views)
+alt_and (Holocaust denial) [+] (non-factual views)
+
+# Needle exchanges decrease infections and therefore costs
+(Needle exchanges) [-decrease] (infections)
+and (Needle exchanges) [-decrease] (costs)
+
+# Elections make judges more democratically accountable
+(Elections) [+] (judges)
+
+# Improved monitoring from test ban provides important information
+(Improved monitoring from test ban) [+provides] (important information)
+opt (Improved monitoring) [+provides] (important information)
+opt (Improved monitoring from test ban) [+provides] (information)
+opt (Improved monitoring) [+provides] (information)
+
+# Settlements undercut Palestinian rights to land
+(Settlements) [-undercut] (Palestinian rights to land)
+opt (Settlements) [-undercut] (rights to land)
+opt (Settlements) [-undercut] (rights)
+
+# Two-state solution and peace is critical to regional stability.
+(Two-state solution and peace) [+] (regional stability)
+alt (Two-state solution) [+] (regional stability)
+alt_and (peace) [+] (regional stability)
+opt (Two-state solution and peace) [+] (stability)
+opt (Two-state solution) [+] (stability)
+opt (peace) [+] (stability)
+
+# Past examples of merit pay for teachers have failed
+
+# Enhanced techniques hamper work with allies against terrorism
+(Enhanced techniques) [-hamper] (work with allies against terrorism)
+alt (Enhanced techniques) [+] (terrorism)
+opt (Enhanced techniques) [-hamper] (work with allies)
+
+# Military strikes on Iran would invite painful retaliation
+(Military strikes on Iran) [+invite] (painful retaliation)
+alt (Military strikes on Iran) [+invite] (retaliation)
+
+# Earmarks are often unrelated to legislation; holds up bill.
+
+# The government would be forced to improve public transport.
+(government) [+improve] (public transport)
+
+# Profit motive of private schools is costly, undermining vouchers.
+(Profit motive of private schools) [-undermining] (vouchers).
+
+# No Child Left Behind offers valuable measure of student progress
+(No Child Left Behind) [+offers] (valuable measure of student progress)
+alt (No Child Left Behind) [+offers] (measure of student progress)
+
+# Stimulus increases debt, inflation, interest rates, harms economy
+(Stimulus) [+increases] (debt)
+and (Stimulus) [+increases] (inflation)
+and (Stimulus) [+increases] (interest rates)
+and (Stimulus) [-harms] (economy)
+
+# Incest undermines the family and its nurturing relationships
+(Incest) [-undermines] (family and its nurturing relationships)
+alt (Incest) [-undermines] (family)
+alt_and (Incest) [-undermines] (family's nurturing relationships)
+opt (Incest) [-undermines] (nurturing relationships)
+
+# Schools are not like businesses; can't just let bad ones die
+
+# Crime cameras lead to slippery slope of Big Brother surveillance.
+(Crime cameras) [+lead to] (slippery slope of Big Brother surveillance)
+alt (Crime cameras) [+lead to] (Big Brother surveillance)
+opt (Crime cameras) [+lead to] (surveillance)
+
+# Conditions at Guantanamo Bay are harmful to detainee mental health
+(Conditions at Guantanamo Bay) [-harmful] (detainee mental health)
+alt (Guantanamo Bay) [-harmful] (detainee mental health)
+opt (Conditions at Guantanamo Bay) [-harmful] (mental health)
+opt (Guantanamo Bay) [-harmful] (mental health)
+opt (Conditions at Guantanamo Bay) [-harmful] (health)
+opt (Guantanamo Bay) [-harmful] (health)
+
+# Israel strikes were intended to further dispirit Palestinians
+(Israel strikes) [-dispirit] (Palestinians)
+
+# Republika Srpska secession would incite Bosnian Croat secession
+(Republika Srpska secession) [+incite] (Bosnian Croat secession)
+
+# ICC and rule of law help deter war crimes and genocide
+(ICC and rule of law) [-deter] (war crimes and genocide)
+alt (ICC and rule of law) [-deter] (war crimes)
+alt_and (ICC and rule of law) [-deter] (genocide)
+alt (ICC) [-deter] (war crimes and genocide)
+alt_and (rule of law) [-deter] (war crimes and genocide)
+alt (ICC) [-deter] (war crimes)
+alt_and (ICC) [-deter] (genocide)
+alt_and (rule of law) [-deter] (war crimes)
+alt_and (rule of law) [-deter] (genocide)
+opt (ICC and rule of law) [-deter] (crimes)
+opt (ICC) [-deter] (crimes)
+opt (rule of law) [-deter] (crimes)
+
+# Louisiana politicians cannot be trusted with federal funding
+
+# Automaker bailout unfairly disadvantages competition
+(Automaker bailout) [-disadvantages] (competition)
+
+# Libya war expands imperial presidency farther than ever
+(Libya war) [+expands] (imperial presidency)
+
+# Circumcision creates risk of infections in infants
+(Circumcision) [+creates] (risk of infections)
+alt (Circumcision) [+creates] (infections)
+
+# Fairness Doctrine would destroy viability of conservative radio
+(Fairness Doctrine) [-destroy] (viability of conservative radio)
+alt (Fairness Doctrine) [-destroy] (conservative radio)
+opt (Fairness Doctrine) [-destroy] (radio)
+
+# EFCA strengthens workers' ability and right to unionize
+(EFCA) [+strengthens] (workers' ability and right to unionize)
+alt (EFCA) [+strengthens] (workers' ability)
+alt_and (EFCA) [+strengthens] (workers' right to unionize)
+opt (EFCA) [+strengthens] (workers)
+
+# It is relatively cheap to convert existing cars to natural gas.
+
+# Oceans corrode wave power systems, which is costly
+(Oceans) [-corrode] (wave power systems)
+
+# Fuel economy standards increase car manufacturing costs and prices
+(Fuel economy standards) [+increase] (car manufacturing costs and prices)
+alt (Fuel economy standards) [+increase] (car manufacturing costs)
+alt_and (Fuel economy standards) [+increase] (car prices)
+
+# Industrial algae biofuel requires too many nutrients
+
+# Fighting climate change means cutting emissions with Kyoto Protocol
+(Fighting climate change) [-cutting] (emissions)
+
+# Areas that depend heavily on summer tourism will suffer economically.
+
+# $700b plan would bail-out greedy capitalists that created crisis
+($700b plan) [-bail-out] (greedy capitalists that created crisis)
+alt ($700b plan) [-bail-out] (greedy capitalists)
+opt ($700b plan) [-bail-out] (capitalists)
+
+# Reforestation, while not a silver bullet, can help solve global warming
+(Reforestation) [+help solve] (global warming)
+
+# Global warming grows phytoplankton; growing more is reckless
+(Global warming) [+grows] (phytoplankton)
+
+# Solar shading reduces sunlight energy available to solar panels
+(Solar shading) [-reduces] (sunlight energy available to solar panels)
+alt (Solar shading) [-reduces] (solar panels)
+opt (Solar shading) [-reduces] (sunlight energy)
+
+# Wind energy production is inconsistent relative to demand
+
+# Companies will pollute excessively before starting carbon trading.
+
+# Natural gas burns more cleanly than gasoline in general
+
+# Random breath tests create slippery slope to expanding police powers
+(Random breath tests) [+create] (slippery slope to expanding police powers)
+alt (Random breath tests) [+] (expanding police powers)
+alt (Random breath tests) [+expanding] (police powers)
+
+# Higher gasoline prices favor fuel-efficient hybrids
+(Higher gasoline prices) [+favor] (fuel-efficient hybrids)
+
+# Hydrogen cars will help end foreign oil dependencies
+(Hydrogen cars) [-help end] (foreign oil dependencies)
+opt (Hydrogen cars) [-help end] (oil dependencies)
+
+# It takes too long to recharge electric vehicles.
+
+# Tidal energy burns no fossil fuels and releases no emissions.
+
+# Natural gas drilling leaves a large environmental footprint
+(Natural gas drilling) [+leaves] (large environmental footprint)
+alt (Natural gas drilling) [+leaves] (environmental footprint)
+
+# Many aquatic species have no problem adapting to impounded waters.
+
+# The recovery/payback period can be very short.
+
+# Unconditional meetings wrongly legitimize hostile leaders
+(Unconditional meetings) [-legitimize] (hostile leaders)
+
+# Opponents of the Lisbon Treaty often spread misinformation
+(Opponents of the Lisbon Treaty) [+spread] (misinformation)
+
+# Signing cluster bomb ban enhances international trust
+(Signing cluster bomb ban) [+enhances] (international trust)
+alt (cluster bomb ban) [+enhances] (international trust)
+opt (Signing cluster bomb ban) [+enhances] (trust)
+opt (cluster bomb ban) [+enhances] (trust)
+
+# The lack of support to private sector makes Venezuela unattractive for investments.
+(lack of support to private sector) [-] (Venezuela)
+
+# Spreading democracy and peace is used as a pretext for war
+
+# US flexibility on Japanese emperor could have produced surrender
+(US flexibility on Japanese emperor) [+produced] (surrender)
+
+# NATO expansion will improve the operational capacity of NATO
+(NATO expansion) [+improve] (operational capacity of NATO)
+alt (NATO expansion) [+improve] (NATO)
+opt (NATO expansion) [+improve] (operational capacity)
+
+# US missile defense proposals in Europe violate Moscow Treaty
+(US missile defense proposals in Europe) [-violate] (Moscow Treaty)
+opt (US missile defense proposals) [-violate] (Moscow Treaty)
+
+# New entrants into EU suffer from increased tax burdens.
+(increased tax burdens) [-] (New entrants into EU)
+alt (tax burdens) [-] (New entrants into EU)
+alt (tax) [-] (New entrants into EU)
+alt (increased tax burdens) [-] (entrants into EU)
+alt (tax burdens) [-] (entrants into EU)
+alt (tax) [-] (entrants into EU)
+
+# Cell phone ban in cars would simply be ignored
+
+# Beauty contests can boost a child's self-esteem.
+(Beauty contests) [+boost] (child's self-esteem)
+opt (Beauty contests) [+boost] (self-esteem)
+opt (Beauty contests) [+] (child)
+
+# Individuals are executed on murder charges whom deserved manslaughter
+
+# Hunting is a good way of controlling widlife
+(Hunting) [+controlling] (widlife)
+
+# Prisoner voting undermines punishment and so rehabilitation.
+(Prisoner voting) [-undermines] (punishment)
+and (Prisoner voting) [-undermines] (rehabilitation)
+
+# Safer roads with 21 drinking laws outweighs all trade-offs
+(21 drinking laws) [+] (Safer roads)
+alt (21 drinking laws) [+safer] (roads)
+
+# Laser pointers have the capability to bring down aircraft and cause major accidents
+(Laser pointers) [-bring down] (aircraft)
+and (Laser pointers) [+cause] (major accidents)
+alt (Laser pointers) [+cause] (accidents)
+
+# Children do better with mother and father role models
+(mother and father role models) [+] (Children)
+
+# Humans could benefit from natural resources of other planets
+(natural resources of other planets) [+] (Humans)
+opt (natural resources) [+] (Humans)
+opt (other planets) [+] (Humans)
+
+# If people followed Christian principles; they would not contract HIV/AIDS.
+
+# EU membership for Turkey would help liberalize the Middle East
+(EU membership for Turkey) [+help liberalize] (Middle East)
+
+# Human clones will not reduce human biological diversity
+
+# Banning trans fats means saving thousands of lives
+(Banning trans fats) [+saving] (thousands of lives)
+alt (Banning trans fats) [+saving] (lives)
+alt (trans fats) [-] (thousands of lives)
+alt (trans fats) [-] (lives)
+
+# Veil-wearing can make it very hard to identify individuals.
+
+# Assassinations protect publics from terrorism; even while it's hard to measure
+(Assassinations) [+protect] (publics)
+and (Assassinations) [-] (terrorism)
+
+# US health care costs more because Americans pay to avoid waiting.
+
+# Legal abortion protects women with serious illnesses that are vulnerable.
+(Legal abortion) [+protects] (women with serious illnesses that are vulnerable)
+opt (Legal abortion) [+protects] (women with serious illnesses)
+opt (Legal abortion) [+protects] (women that are vulnerable)
+opt (Legal abortion) [+protects] (women)
+opt (abortion) [+protects] (women with serious illnesses that are vulnerable)
+opt (abortion) [+protects] (women with serious illnesses)
+opt (abortion) [+protects] (women that are vulnerable)
+opt (abortion) [+protects] (women)
+
+# Eating meat is bad for both animals and for humans; simple ethics
+(Eating meat) [-bad for] (animals)
+and (Eating meat) [-bad for] (humans)
+
+# Libertarians would decriminalize many crimes, so reduce crime
+(Libertarians) [+decriminalize] (crimes)
+and (Libertarians) [-reduce] (crime)
+
+# Animals endure tremendous stress from being locked up.
+(being locked up) [-] (Animals)
+
+# Right to die allows opponents to not participate.
+(Right to die) [+allows] (opponents)
+
+# Polygamy is traumatizing and depressing for wives
+(Polygamy) [-traumatizing] (wives)
+alt (Polygamy) [-depressing] (wives)
+
+# The right to self-determination must be offered sparingly to avoid international instability.
+(right to self-determination) [+] (international instability)
+alt (self-determination) [+] (international instability)
+
+# An early withdrawal from Iraq would embolden terrorists
+(early withdrawal from Iraq) [+embolden] (terrorists)
+(withdrawal from Iraq) [+embolden] (terrorists)
+
+# Culling Kangaroo tarnishes the image of Australia around the world.
+(Culling Kangaroo) [-tarnishes] (image of Australia)
+alt (Culling Kangaroo) [-tarnishes] (Australia)
+
+# Loose housing for calves often subjects them to bullying and apprehension.
+(Loose housing for calves) [+subjects] (bullying and apprehension)
+alt (Loose housing for calves) [+subjects] (bullying)
+alt_and (Loose housing for calves) [+subjects] (apprehension)
+opt (Loose housing) [+subjects] (bullying and apprehension)
+opt (Loose housing) [+subjects] (bullying)
+opt (Loose housing) [+subjects] (apprehension)
+
+# Worldwide the ownership of handguns has been correlated with higher homicide rates
+
+# Images of Muhammad are forbidden because they lead to idolatry.
+(Images of Muhammad) [+lead to] (idolatry)
+
+# Giving Bin Laden religious respects degrades Islam.
+(Giving Bin Laden religious respects) [-degrades] (Islam)
+
+# Splitting the delegates would give some voice to Michigan and Florida voters.
+(Splitting the delegates) [+give voice] (Michigan and Florida voters)
+alt (Splitting the delegates) [+give voice] (Michigan voters)
+alt (Splitting the delegates) [+give voice] (Florida voters)
+opt (Splitting the delegates) [+give voice] (voters)
+
+# Dollarization can reduce the risk of inflation:
+(Dollarization) [-reduce] (risk of inflation)
+alt (Dollarization) [-reduce risk of] (inflation)
+
+# Sanctions against Cuba violated laws on the freedom of navigation.
+(Sanctions against Cuba) [-violated] (laws on the freedom of navigation)
+opt (Sanctions against Cuba) [-violated] (laws)
+
+# Free trade and investment risks rapid capital flight from developing countries.
+(Free trade and investment) [-risks] (rapid capital flight from developing countries)
+alt (Free trade and investment) [-risks] (capital flight from developing countries)
+opt (Free trade and investment) [-risks] (rapid capital flight)
+opt (Free trade and investment) [-risks] (capital flight)
+alt (Free trade) [-risks] (rapid capital flight from developing countries)
+alt_and (investment) [-risks] (rapid capital flight from developing countries)
+alt (Free trade) [-risks] (capital flight from developing countries)
+alt_and (investment) [-risks] (capital flight from developing countries)
+opt (Free trade) [-risks] (rapid capital flight)
+opt (investment) [-risks] (rapid capital flight)
+opt (Free trade) [-risks] (capital flight)
+opt (investment) [-risks] (capital flight)
+
+# Superdelegates help increase the likelihood of a Democratic presidency
+(Superdelegates) [+help increase] (likelihood of a Democratic presidency)
+alt (Superdelegates) [+help increase likelihood] (Democratic presidency)
+
+# Increased legal marijuana consumption will decrease economic productivity
+(Increased legal marijuana consumption) [-decrease] (economic productivity)
+alt (marijuana consumption) [-decrease] (economic productivity)
+opt (marijuana) [-decrease] (economic productivity)
+opt (Increased legal marijuana consumption) [-decrease] (productivity)
+opt (marijuana consumption) [-decrease] (productivity)
+opt (marijuana) [-decrease] (productivity)
+
+# Individuals must cede some rights for safety, including right to prostitute.
+(safety) [-] (right to prostitute)
+and (safety) [-] (some rights)
+alt (safety) [-] (rights)
+
+# Nuclear weapons may protect humans from threats from space.
+(Nuclear weapons) [+protect] (humans)
+
+# Pre-1967 borders will not satisfy Islamic
+
+# Three Gorges Dam damages water quality
+(Three Gorges Dam) [-damages] (water quality)
+alt (Three Gorges Dam) [-damages] (water)
+
+# Primaries help reveal candidates to the public
+(Primaries) [+help reveal] (candidates)
+
+# Hate crime laws violate religious free speech
+(Hate crime laws) [-violate] (religious free speech)
+opt (Hate crime laws) [-violate] (free speech)
+
+# The 1994 US assault weapons ban significantly decreased use
+(1994 US assault weapons ban) [-decreased] (use)
+
+# Kosovo independence will not inspire other separatist movements
+
+# Third world governments often seize local control to expand ecotourism
+(Third world governments) [+expand] (ecotourism)
+
+# Ethanol energy is a net CO2 polluter
+
+# Only boycotting the Olympics sufficiently protests China's abuses
+(boycotting the Olympics) [-protests] (China's abuses)
+
+# Fish farming is economically beneficial
+
+# Increasing food stamp benefits will not stimulate the economy
+
+# A border fence would not be as effective as other measures
+
+# Information obtained through waterboarding is unreliable
+
+# Drugs can have a beneficial mind-expanding capacity
+(Drugs) [+beneficial] (mind-expanding capacity)
+
+# The costs of providing driver's licenses to millions of illegal immigrants would be very high.
+
+# Tunnel will increase traffic in pioneer square.
+(Tunnel) [+increase] (traffic in pioneer square)
+
+# Unlike automobiles, rail fosters a sense of community.
+(rail) [+fosters] (sense of community)
+
+# Military placement exams would encourage school-work.
+(Military placement exams) [+encourage] (school-work)
+
+# Doing nothing is to be complicit with Gaddafi regime.
+(Doing nothing) [+complicit] (Gaddafi regime)
+
+# Young people aren't stupid, understand risk of joining military.
+
+# Bullfighting is too dangerous to humans to justify
+(Bullfighting) [-dangerous] (humans)
+
+# War not worth roughly 100,000 Iraqi civilians killed.
+(War) [-killed] (roughly 100,000 Iraqi civilians)
+alt (War) [-killed] (100,000 Iraqi civilians)
+alt (War) [-killed] (Iraqi civilians)
+opt (War) [-killed] (civilians)
+
+# Ending oil subsidies levels playing field for clean energy
+(Ending oil subsidies) [+levels playing field for] (clean energy)
+alt (oil subsidies) [-] (clean energy)
+
+# Castration exposes sex offenders to side effects
+(Castration) [+exposes to] (side effects)
+
+# A right of return wrongly makes Israel responsible for refugees.
+
+# Forcing a vote is as bad for democracy as poor turnout.
+(Forcing a vote) [-bad for] (democracy)
+and (poor turnout) [-bad for] (democracy)
+
+# Independence jeopardizes Puerto Rican economic gains.
+(Independence) [-jeopardizes] (Puerto Rican economic gains)
+
+# DREAM Act is bad for American employment.
+(DREAM Act) [-bad for] (American employment)
+opt (DREAM Act) [-bad for] (employment)
+
+# JD as credential has poor return on investment.
+
+# Signing New START saves US-Russia relations for Iranian problem.
+(Signing New START) [+saves] (US-Russia relations)
+alt (New START) [+saves] (US-Russia relations)
+
+# Terrorists could dress and behave differently to avoid profiling.
+
+# Privatizing social security helps the poor.
+(Privatizing social security) [+helps] (poor).
+
+# Nuclear waste storage requires huge state subsidies.
+(huge state subsidies) [+] (Nuclear waste storage)
+alt (state subsidies) [+] (Nuclear waste storage)
+
+# Anonymity ensures that arguments rise above identity attacks.
+(Anonymity) [+] (arguments)
+and (Anonymity) [-] (identity attacks)
+
+# Renewable Electricity Standard is more consistent than tax credits
+
+# Renewable energy mandates ensure market for cellulosic ethanol
+(Renewable energy mandates) [+ensure] (market for cellulosic ethanol)
+(Renewable energy mandates) [+ensure market for] (cellulosic ethanol)
+
+# The transportation of captured carbon can be very expensive
+
+# Geoengineering may whiten skies, harm human psychology
+(Geoengineering) [-harm] (human psychology)
+opt (Geoengineering) [-harm] (human)
+
+# Tar sands can't enhance energy security; too expensive, not enough
+
+# Ground zero mosque has angered and offended many New Yorkers.
+(Ground zero mosque) [-angered and offended] (many New Yorkers)
+alt (Ground zero mosque) [-angered and offended] (New Yorkers)
+
+# Open primaries allow tactical manipulation
+(Open primaries) [+allow] (tactical manipulation)
+
+# Public interest legal jobs are underpaid
+
+# Mass deportation from US would be very expensive
+
+# MBAs get training in numbers, but not leadership
+
+# EMF would allow orderly sovereign default.
+(EMF) [+allow] (orderly sovereign default)
+
+# Breastfeeding is best for the health and development of babies
+(Breastfeeding) [+best for] (health and development of babies)
+alt (Breastfeeding) [+best for] (health of babies)
+alt_and (Breastfeeding) [+best for] (development of babies)
+opt (Breastfeeding) [+best for] (babies)
+
+# They are a source of headaches.
+(They) [+] (headaches)
+
+# More money for other sectors
+
+# Instant replay would reduce fights between coaches and umpires.
+(Instant replay) [-reduce] (fights between coaches and umpires)
+opt (Instant replay) [-reduce] (fights)
+
+# Blockade is not causing a humanitarian crisis in Gaza
+
+# Amend would create Const. crisis, court battle w/ each budget.
+(Amend) [+create] (Const. crisis)
+
+# 2010 financial regs won't end too big to fail and bailouts
+
+# Bailout of Greece will help prevent contagion
+(Bailout of Greece) [-help prevent] (contagion)
+
+# Deploying smart mines encourages the use of all mines
+(Deploying smart mines) [+encourages] (use of all mines)
+alt (Deploying smart mines) [+encourages] (all mines)
+alt (Deploying smart mines) [+encourages] (mines)
+
+# Graduated response helps avoid litigating against consumers.
+(Graduated response) [-helps avoid] (litigating against consumers)
+
+# Network neutrality damages competition and niche suppliers
+(Network neutrality) [-damages] (competition and niche suppliers)
+alt (Network neutrality) [-damages] (competition)
+alt_and (Network neutrality) [-damages] (niche suppliers)
+
+# Mandates create cartel of govt-supported insurance companies
+(Mandates) [+create] (cartel of govt-supported insurance companies)
+alt (Mandates) [+create] (govt-supported insurance companies)
+
+# Debt deal makes needed cuts to military budgets.
+(Debt deal) [-cuts] (military budgets)
+
+# Noise from offshore drilling can harm sea animals
+(Noise from offshore drilling) [-harm] (sea animals)
+alt (offshore drilling) [-harm] (sea animals)
+
+# Google pressuring China on censorship emboldens hard-liners
+(Google pressuring China on censorship) [+emboldens] (hard-liners)
+(Google) [+emboldens] (hard-liners)
+
+# War on Drugs worsens cartel violence
+(War on Drugs) [-worsens] (cartel violence)
+opt (War on Drugs) [-worsens] (violence)
+
+# Gay marriage undercuts procreation at time of vulnerability
+(Gay marriage) [-undercuts] (procreation)
+
+# With rights companies can enter into contracts, lawsuits
+(rights) [+] (companies)
+and (rights) [+] (contracts)
+and (rights) [+] (lawsuits)
+
+# Corp. spending limits infringe free speech in assoc.
+(Corp. spending limits) [-infringe] (free speech in assoc.)
+opt (Corp. spending limits) [-infringe] (free speech)
+
+# Big govt is individuals working to meet collective needs
+(Big govt) [+meet] (collective needs)
+and (individuals) [+meet] (collective needs)
+
+# Playoffs would be unfair to some college football teams
+(Playoffs) [-unfair to] (some college football teams)
+alt (Playoffs) [-unfair to] (college football teams)
+
+# 2010 US bank tax will kill jobs created/fostered by banks
+(2010 US bank tax) [-kill] (jobs created/fostered by banks)
+opt (2010 US bank tax) [-kill] (jobs)
+
+# Full-body scanners will slow airport security check-points.
+(Full-body scanners) [-slow] (airport security check-points)
+
+# Health care bill would insure 30m Americans
+(Health care bill) [+insure] (30m Americans)
+alt (Health care bill) [+insure] (Americans)
+
+# Direct democracy fosters emotional decision-making.
+(Direct democracy) [+fosters] (emotional decision-making)
+
+# Affirmative action promotes mediocrity by undermining meritocracy.
+(Affirmative action) [+promotes] (mediocrity)
+and (Affirmative action) [-undermining] (meritocracy)
+
+# Electing an EU president directly will increase accountability.
+(Electing an EU president directly) [+increase] (accountability)
+
+# Civilian trials avoid using evidence from coercive interrogations
+
+# Patent licenses are very costly, impair R and D
+(Patent licenses) [-impair] (R and D)
+
+# Minority of troop discomfort with gays is enough to damage cohesion.
+(Minority of troop discomfort with gays) [-damage] (cohesion)
+alt (troop discomfort with gays) [-damage] (cohesion)
+
+# Entire nuclear cycle may emit substantial greenhouse gases
+(Entire nuclear cycle) [+emit] (substantial greenhouse gases)
+alt (Entire nuclear cycle) [+emit] (greenhouse gases)
+alt (nuclear cycle) [+emit] (substantial greenhouse gases)
+alt (nuclear cycle) [+emit] (greenhouse gases)

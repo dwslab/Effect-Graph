@@ -1,0 +1,120 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+  .leftcolumn {
+    float: left;
+    width: 60%;
+  }
+  .rightcolumn {
+    float: left;
+    background-color: lightgrey;
+    width: 36%;
+  }
+  .box {
+    padding: 3px;
+    background: lightblue;
+  }
+  .arrow {
+    background-color: blue;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    padding-right: 5px;
+  }
+  .arrow:after {
+    color: blue;
+    border-left: 20px solid;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    display: inline-block;
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: -8px;
+  }
+  .arrow_text {
+    color: white;
+    /* font-weight: bold; */
+    padding-left: 10px;
+  }
+</style>
+
+<body>
+<div class="row">
+
+ <div class="leftcolumn" style="padding-left:1%">
+   <crowd-form answer-format="flatten-objects">
+     <div>
+       <hr>
+       <p style="font-size:large"><b>Statement:</b> <br> ${statement} </p>
+       <span style="font-size:large">
+         <b>Relation:</b> <br> <i> ${subject} </i>
+         <div class="arrow"> <span class="arrow_text"> (may) ${effecttype} affect </span> </div>
+         <i> ${object} </i>
+       </span>
+       <br> <br>
+         <p> Assuming the Statement is correct, is the Relation also correct? <br>
+         <crowd-radio-group>
+           <crowd-radio-button name="no">
+             No
+           </crowd-radio-button> <br>
+           <crowd-radio-button name="rather_no">
+             Rather no
+           </crowd-radio-button> <br>
+           <crowd-radio-button name="unsure">
+             I am unsure
+           </crowd-radio-button> <br>
+           <crowd-radio-button name="rather_yes">
+             Rather yes
+           </crowd-radio-button> <br>
+           <crowd-radio-button name="yes">
+             Yes
+           </crowd-radio-button>
+         </crowd-radio-group></p>
+
+     <hr>
+      <crowd-text-area name="comments" label="Comments / Feedback (optional)"> </crowd-text-area>
+   </div>
+ </crowd-form>
+</div>
+<div class="rightcolumn" style="padding-left:1%; padding-right:1%">
+  <h2> Instructions </h2>
+  Just for reference, here are the instructions again:
+  <p> Each HIT, you will be presented a <b> Statement </b> from which a <b> Relation </b> was extracted automatically.
+    The Relation is expected to capture some sort of positive or negative effect between two of the statement's instances.
+  <br> Your task is to judge whether the extraction was successful. Successful means that the Relation can be considered to be correct when assuming that the Statement itself is correct.
+  </p>
+  <hr>
+
+  <p style="font-size:large"><b>Statement:</b> <br> Scientists found out that unicorns can end any war. </p>
+  <span style="font-size:large">
+    <b>Relation:</b> <br>
+    <span class="box"> unicorns</span>
+    <div class="arrow"> <span class="arrow_text"> (may) <b> negatively </b> affect </span> </div>
+    <span class="box"> war </span>
+  </span>
+  <p> Obviously, the statement is made up. But for this task, we assume it to be true.
+    <br> Consequently, the Relation is <b>correct</b>: The effect which is expressed on <i>war</i> is a <u>negative</u> one (it may be <i>ended</i> by unicorns).
+  </p>
+
+  <p>
+    Other words that trigger negative effects are for instance <i>decrease, damage, forbid, ban, reduce, ...</i>.
+    <br> Positive effects are triggered by words such as <i>increase, help, permit, cause, create, ...</i>.
+ </p>
+
+    <hr>
+
+    <p style="font-size:large"><b>Statement:</b><br> Scientists found out that unicorns can end any war. </p>
+    <span style="font-size:large">
+      <b>Relation:</b><br>
+      <span class="box"> scientists</span>
+      <div class="arrow"> <span class="arrow_text"> (may) <b> negatively </b> affect </span> </div>
+      <span class="box"> war </span>
+    </span>
+    <p> This time, the Relation is <b> not correct</b>: It is not the <i>scientists</i> who have a negative effect on <i>war</i>, but the <i>unicorns</i>. </p>
+
+</div>
+</div>
+</body>
