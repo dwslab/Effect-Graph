@@ -1,5 +1,4 @@
 # Effect-Graph
-Effect Relation Extraction for Explanation Generation
 
 If you use any of the published resources, please refer to the following paper:
 [Effect Graph: Effect Relation Extraction for Explanation Generation by Jonathan Kobbe, Ioana Hulpu, Heiner Stuckenschmidt](https://aclanthology.org/2023.nlrse-1.9/)
